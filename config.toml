@@ -14,6 +14,7 @@ SectionPagesMenu    = "main"
 footnoteReturnLinkContents  = "↩"
 pygmentsuseclasses    = "true"
 #pygmentsstyle = "monokai"
+enableGitInfo = "true"
 
 [params]
   description = "Blog by Johannes Amorosa"
