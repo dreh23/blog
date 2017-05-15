@@ -16,5 +16,7 @@
   {{ with .Params.tags }}
     and tagged {{ delimit (apply (apply (sort .) "partial" "post/tag-link.html" ".") "chomp" ".") ", " " and " }}
   {{ end }}
-  using <span itemprop="wordCount">{{ .WordCount }}</span> words.
+  using <span itemprop="wordCount">{{ .WordCount }} words.
 </p>
+
+<p>{{ partial "gitinfo.html" . }}</p>
