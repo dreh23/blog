@@ -1,0 +1,46 @@
+baseurl       = "https://dreh23.keybase.pub"
+languageCode      = "en-GB"
+title         = "Blog by Johannes Amorosa"
+paginate      = 11
+publishDir      = "/keybase/public/dreh23/"
+noTimes       = true
+theme         = "after-dark"
+
+enableRobotsTXT     = true
+googleAnalytics     = "UA-30100832-2"
+yandex        = "090cc389e9a15daa"
+disqusShortname     = "dreh23-keybase-pub"
+SectionPagesMenu    = "main"
+footnoteReturnLinkContents  = "↩"
+pygmentsuseclasses    = "true"
+#pygmentsstyle = "monokai"
+
+[params]
+  description = "Blog by Johannes Amorosa"
+  hide_author = false
+  show_menu = true
+  powered_by = false
+  images = [
+    "https://source.unsplash.com/category/technology/1600x900"
+  ] # Suggested, controls default Open Graph images
+  theme_variant = ""
+
+[params.seo.webmaster_verifications]
+  yandex = "090cc389e9a15daa"
+
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  identifier = "post"
+  url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  identifier = "about"
+  url = "/about"
+[[menu.main]]
+  name = "Imprint"
+  weight = 3
+  identifier = "imprint"
+  url = "/imprint"
