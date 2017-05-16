@@ -10,6 +10,7 @@ title = "Markup Reference"
 toc = false
 
 +++
+{{< prism>}}
 
 This post is a reference for myself. I can lookup all the markup for future postings. One of my next post will include the technology behind this blog.
 
